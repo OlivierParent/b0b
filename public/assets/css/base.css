@@ -1,0 +1,289 @@
+@charset "utf-8";
+/******************************************************************************
+ *                                                                            *
+ *                                                                            *
+ *                                                                            *
+ *                        aaaAAaaa            HHHHHH                          *
+ *                     aaAAAAAAAAAAaa         HHHHHH                          *
+ *                    aAAAAAAAAAAAAAAa        HHHHHH                          *
+ *                   aAAAAAAAAAAAAAAAAa       HHHHHH                          *
+ *                   aAAAAAa    aAAAAAA                                       *
+ *                   AAAAAa      AAAAAA                                       *
+ *                   AAAAAa      AAAAAA                                       *
+ *                   aAAAAAa     AAAAAA                                       *
+ *                    aAAAAAAaaaaAAAAAA       HHHHHH                          *
+ *                     aAAAAAAAAAAAAAAA       HHHHHH                          *
+ *                      aAAAAAAAAAAAAAA       HHHHHH                          *
+ *                         aaAAAAAAAAAA       HHHHHH                          *
+ *                                                                            *
+ *                                                                            *
+ *                                                                            *
+ *      a r t e v e l d e  u n i v e r s i t y  c o l l e g e  g h e n t      *
+ *                                                                            *
+ *                                                                            *
+ *                                 MEMBER OF GHENT UNIVERITY ASSOCIATION      *
+ *                                                                            *
+ *                                                                            *
+ ******************************************************************************
+ *
+ * @author     Olivier Parent
+ * @copyright  Copyright (c) 2012 Artevelde University College Ghent
+ */
+html {
+    background: #000;
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, .8);
+    font: 62.5%/1.2em Calibri, Arial, sans-serif;
+}
+body {
+    font-size: 16px;
+    font-size: 1.6rem;
+    height: 100%;
+    line-height: 1.2em;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Exo, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+h1 {
+    color: #FFF;
+}
+fieldset {
+    border: none;
+    margin: 0;
+}
+h2,
+legend {
+    border: none;
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, .5);
+    font-family: Exo, sans-serif;
+    font-size: 24px;
+    font-size: 2.4rem;
+    font-weight: 200;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 4px;
+    top: .4rem;
+}
+.box p {
+    padding-top: 8px;
+    padding-top: .8rem;
+}
+form dl {
+    float: left;
+}
+form dt {
+    clear: left;
+    float: left;
+    text-align: right;
+    padding-top: 8px;
+    padding-top: .8rem;
+}
+form dt label {
+    line-height: 1em;
+}
+form label.wrap {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .3);
+    -moz-border-radius   : .3rem;
+    -webkit-border-radius: .3rem;
+    border-radius        : 3px;
+    border-radius        : .3rem;
+    padding: 0 4px;
+    padding: 0 .4rem;
+}
+form label.wrap:hover {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, .3);
+    color: #000;
+    cursor: pointer;
+}
+form dd {
+    margin-left: 10px;
+    margin-left: 1rem;
+    margin-top: 8px;
+    margin-top: .8rem;
+}
+form select option {
+    text-align: right;
+}
+form#form-bal dd {
+    clear: right;
+    float: left;
+}
+form input[type="email"],
+form input[type="password"],
+form input[type="text"] {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, .3);
+    border: none;
+    -moz-border-radius   : .3rem;
+    -webkit-border-radius: .3rem;
+    border-radius        : 3px;
+    border-radius        : .3rem;
+    color: #FFF;
+    padding: 0 4px;
+    padding: 0 .4rem;
+    height: 20px;
+    height: 2rem;
+}
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form input[type="text"]:focus {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, .3);
+    color: #000;
+    -ms-transition    : all .5s ease-in-out;
+    -moz-transition   : all .5s ease-in-out;
+    -o-transition     : all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition        : all .5s ease-in-out;
+}
+form input[maxlength="2"],
+form input[maxlength="3"] {
+    text-align: right;
+    width: 2em;
+}
+form input[type="submit"] {
+    background-color: rgb(127, 127, 127);
+    background-color: rgba(255, 255, 255, .5);
+    border: none;
+    -moz-border-radius   : .3rem;
+    -webkit-border-radius: .3rem;
+    border-radius        : 3px;
+    border-radius        : .3rem;
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-left: 2rem;
+    padding: 15px 20px;
+    padding: 1.5rem 2rem;
+}
+form input[type="submit"]:hover {
+    background: #E90;
+    border: none;
+    -ms-transition    : all .3s ease-in-out;
+    -moz-transition   : all .3s ease-in-out;
+    -o-transition     : all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition        : all .3s ease-in-out;
+}
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, .5);
+    font-style: italic;
+}
+:-moz-placeholder {
+    color: rgba(255, 255, 255, .5) !important;
+    font-style: italic;
+}
+.copy {
+    color: rgb(127, 127, 127);
+    color: rgba(255, 255, 255, .5);
+    text-align: center;
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+.style-a {
+    background-color: #BC0; /* Ahs groen */
+}
+.style-b {
+    background-color: #0AC; /* Ahs blauw */
+}
+.style-c {
+    background-color: #C07; /* Ahs fuchsia */
+}
+.style-d {
+    background-color: #E90; /* Ahs oranje */
+}
+.box {
+    display: block;
+    padding: 1.5em 2em 1em;
+    position: relative;
+    min-height: 90px;
+    min-height: 9rem;
+}
+
+/* Debug */
+pre {
+    background-color: rgb(26, 26, 26);
+    background-color: rgba(255, 255, 255, .1);
+    color: rgb(26, 26, 26);
+    color: rgba(255, 255, 255, .1);
+    font-size: 10px;
+    font-size: 1rem;
+    padding: 1em;
+}
+pre:hover {
+    color: rgb(26, 26, 26);
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Navigatie */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+nav ul li {
+    float: left;
+}
+nav a {
+    background-color: #555;
+    border-bottom-left-radius : .5em;
+    border-bottom-right-radius: .5em;
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+    font-size: 1.2rem;
+    margin: 0 .5em 0 0;
+    padding: 5px 10px;
+    padding: .5rem 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #E90;
+    text-decoration: none;
+    -ms-transition    : all .3s ease-in-out;
+    -moz-transition   : all .3s ease-in-out;
+    -o-transition     : all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition        : all .3s ease-in-out;
+}
+
+@media(max-width: 640px) {
+    nav ul {
+        position: relative;
+    }
+    nav ul li {
+        float: none;
+    }
+    nav a {
+        border-radius: 3px;
+        border-radius: .3rem;
+        font-size: inherit;
+        margin: 0 5px 5px;
+        margin: 0 .5rem .5rem;
+        padding: 15px 20px;
+        padding: 1.5rem 2rem;
+        text-align: center;
+    }
+}
